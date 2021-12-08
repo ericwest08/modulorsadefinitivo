@@ -9,3 +9,4 @@
 
 export { helloWorld, Response } from './hello-world'
 export default function sayHello (): void { console.log('hello') }
+export { rsaKeyPair, RsaPublicKey, RsaPrivateKey, generateKeys } from './rsa'
